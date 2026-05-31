@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" role="img" aria-labelledby="title desc">
+  <title id="title">EURO elite</title>
+  <desc id="desc">EURO elite paving stones logo</desc>
+  <rect width="520" height="120" fill="none"/>
+  <text x="0" y="84" fill="#ffffff" font-family="Inter, Arial, Helvetica, sans-serif" font-size="72" font-weight="900" letter-spacing="0">EUR</text>
+  <path fill="#d7a72d" fill-rule="evenodd" d="M219 17h69l15 15v56l-15 15h-69l-15-15V32l15-15Zm13 18v50h43V35h-43Z"/>
+  <text x="322" y="84" fill="#ffffff" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="500" letter-spacing="0">elite</text>
+</svg>

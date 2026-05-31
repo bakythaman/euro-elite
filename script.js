@@ -11,13 +11,14 @@ const localeMap = {
 
 const translations = {
   kk: {
-    title: "EURO elite | Шымкенттегі брусчатка және тротуар плиткасы",
+    title: "EURO elite | Брусчатка Шымкент | Тротуар плиткасы",
     description:
-      "EURO elite Шымкент: тротуар плиткасы мен брусчатка өндірісі, өлшеу, кеңес беру, жеткізу және аулаға арналған өрнек таңдау.",
+      "EURO elite Шымкент: брусчатка, тротуар плиткасы, тротуарная плитка, өлшеу, кеңес беру, жеткізу және аулаға арналған өрнек таңдау.",
     menuOpen: "Мәзірді ашу",
     menuClose: "Мәзірді жабу",
     nav: ["Каталог", "Жобалар", "Калькулятор", "Пікірлер", "Мекенжай", "Байланыс"],
     heroEyebrow: "Шымкенттегі өндіріс",
+    heroSeo: "Брусчатка Шымкент | Тротуар плиткасы",
     heroLead:
       "Аулаларға, коммерциялық кіреберістерге, жолдарға және премиум фасад аймақтарына арналған тротуар плиткасы мен брусчатка.",
     heroCalc: "Құнын есептеу",
@@ -123,13 +124,14 @@ const translations = {
     waText: "Сәлеметсіз бе, EURO elite брусчаткасы бойынша есеп алғым келеді.",
   },
   ru: {
-    title: "EURO elite | Брусчатка и тротуарная плитка в Шымкенте",
+    title: "EURO elite | Брусчатка Шымкент | Тротуарная плитка",
     description:
-      "EURO elite в Шымкенте: производство тротуарной плитки и брусчатки, замер, консультация, доставка и подбор рисунка под объект.",
+      "EURO elite в Шымкенте: брусчатка, тротуарная плитка, производство, замер, консультация, доставка и подбор рисунка под объект.",
     menuOpen: "Открыть меню",
     menuClose: "Закрыть меню",
     nav: ["Каталог", "Проекты", "Калькулятор", "Отзывы", "Адреса", "Контакты"],
     heroEyebrow: "Производство в Шымкенте",
+    heroSeo: "Брусчатка Шымкент | Тротуарная плитка",
     heroLead:
       "Тротуарная плитка и брусчатка для дворов, коммерческих входных групп, дорожек и премиальных фасадных зон.",
     heroCalc: "Рассчитать стоимость",
@@ -401,6 +403,7 @@ const applyLanguage = (lang) => {
   setListText(".site-nav a", copy.nav);
   menuToggle.setAttribute("aria-label", nav.classList.contains("is-open") ? copy.menuClose : copy.menuOpen);
   setText(".hero .eyebrow", copy.heroEyebrow);
+  setText(".hero__seo-line", copy.heroSeo);
   setText(".hero__lead", copy.heroLead);
   setText(".hero__actions .button--primary", copy.heroCalc);
   setText(".hero__actions .button--ghost", copy.heroProjects);

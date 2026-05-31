@@ -99,34 +99,30 @@ select {
 }
 
 .brand {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 6px;
-  min-width: 158px;
-  font-weight: 800;
-}
-
-.brand__euro {
-  font-size: 25px;
+  display: inline-grid;
+  align-items: center;
+  width: 168px;
+  min-width: 168px;
   line-height: 1;
 }
 
-.brand__elite {
-  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
-  font-size: 21px;
-  font-weight: 500;
+.brand__logo {
+  width: 100%;
+  height: auto;
 }
 
-.brand__o {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 0.8em;
-  height: 0.8em;
-  margin-left: 1px;
-  color: transparent;
-  border: 4px solid var(--gold);
-  transform: translateY(0.07em);
+.brand__logo--dark {
+  display: none;
+}
+
+.site-header.is-scrolled .brand__logo--light,
+.site-header.menu-open .brand__logo--light {
+  display: none;
+}
+
+.site-header.is-scrolled .brand__logo--dark,
+.site-header.menu-open .brand__logo--dark {
+  display: block;
 }
 
 .site-nav {
@@ -286,6 +282,16 @@ select {
   font-size: 0.56em;
   font-style: normal;
   font-weight: 500;
+}
+
+.hero__seo-line {
+  display: block;
+  margin-top: 20px;
+  color: var(--gold-soft);
+  font-size: 22px;
+  line-height: 1.25;
+  font-weight: 850;
+  text-transform: uppercase;
 }
 
 .hero__lead {
@@ -1476,6 +1482,8 @@ h2 {
 
 .brand--footer {
   color: var(--white);
+  width: 154px;
+  min-width: 154px;
 }
 
 .footer__grid p {
@@ -1555,7 +1563,8 @@ h2 {
   }
 
   .brand {
-    min-width: auto;
+    width: 148px;
+    min-width: 148px;
   }
 
   .header-phone {
@@ -1634,6 +1643,11 @@ h2 {
   .hero-logo em {
     display: block;
     font-size: 0.46em;
+  }
+
+  .hero__seo-line {
+    margin-top: 16px;
+    font-size: 16px;
   }
 
   .hero__lead {
@@ -1800,11 +1814,8 @@ h2 {
     font-size: 46px;
   }
 
-  .brand__euro {
-    font-size: 22px;
-  }
-
-  .brand__elite {
-    font-size: 18px;
+  .brand {
+    width: 132px;
+    min-width: 132px;
   }
 }

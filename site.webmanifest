@@ -1,0 +1,16 @@
+{
+  "name": "EURO elite",
+  "short_name": "EURO elite",
+  "description": "Шымкенттегі брусчатка және тротуар плиткасы өндірісі.",
+  "start_url": "/euro-elite/",
+  "display": "standalone",
+  "background_color": "#faf8f2",
+  "theme_color": "#d7a72d",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}
